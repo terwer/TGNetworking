@@ -11,6 +11,12 @@
 		BE3F56781B9492A2003502CB /* TGNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = BE3F56771B9492A2003502CB /* TGNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE3F567E1B9492A2003502CB /* TGNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3F56721B9492A2003502CB /* TGNetworking.framework */; };
 		BE3F56851B9492A2003502CB /* TGNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3F56841B9492A2003502CB /* TGNetworkingTests.m */; };
+		BEDCD76C1B949936005C71F7 /* TGHttpRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = BEDCD76A1B949936005C71F7 /* TGHttpRequestOperation.h */; };
+		BEDCD76D1B949936005C71F7 /* TGHttpRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDCD76B1B949936005C71F7 /* TGHttpRequestOperation.m */; };
+		BEDCD7701B9499E0005C71F7 /* TGHttpRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BEDCD76E1B9499E0005C71F7 /* TGHttpRequestOperationManager.h */; };
+		BEDCD7711B9499E0005C71F7 /* TGHttpRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDCD76F1B9499E0005C71F7 /* TGHttpRequestOperationManager.m */; };
+		BEDCD7741B949ABA005C71F7 /* PublicAccessToken.h in Headers */ = {isa = PBXBuildFile; fileRef = BEDCD7721B949ABA005C71F7 /* PublicAccessToken.h */; };
+		BEDCD7751B949ABA005C71F7 /* PublicAccessToken.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDCD7731B949ABA005C71F7 /* PublicAccessToken.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +39,12 @@
 		BE3F567D1B9492A2003502CB /* TGNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3F56831B9492A2003502CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE3F56841B9492A2003502CB /* TGNetworkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGNetworkingTests.m; sourceTree = "<group>"; };
+		BEDCD76A1B949936005C71F7 /* TGHttpRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGHttpRequestOperation.h; sourceTree = "<group>"; };
+		BEDCD76B1B949936005C71F7 /* TGHttpRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGHttpRequestOperation.m; sourceTree = "<group>"; };
+		BEDCD76E1B9499E0005C71F7 /* TGHttpRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGHttpRequestOperationManager.h; sourceTree = "<group>"; };
+		BEDCD76F1B9499E0005C71F7 /* TGHttpRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGHttpRequestOperationManager.m; sourceTree = "<group>"; };
+		BEDCD7721B949ABA005C71F7 /* PublicAccessToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicAccessToken.h; sourceTree = "<group>"; };
+		BEDCD7731B949ABA005C71F7 /* PublicAccessToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublicAccessToken.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +101,12 @@
 			children = (
 				BE3F56771B9492A2003502CB /* TGNetworking.h */,
 				BE3F56751B9492A2003502CB /* Supporting Files */,
+				BEDCD76A1B949936005C71F7 /* TGHttpRequestOperation.h */,
+				BEDCD76B1B949936005C71F7 /* TGHttpRequestOperation.m */,
+				BEDCD76E1B9499E0005C71F7 /* TGHttpRequestOperationManager.h */,
+				BEDCD76F1B9499E0005C71F7 /* TGHttpRequestOperationManager.m */,
+				BEDCD7721B949ABA005C71F7 /* PublicAccessToken.h */,
+				BEDCD7731B949ABA005C71F7 /* PublicAccessToken.m */,
 			);
 			path = TGNetworking;
 			sourceTree = "<group>";
@@ -133,7 +151,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEDCD7701B9499E0005C71F7 /* TGHttpRequestOperationManager.h in Headers */,
 				BE3F56781B9492A2003502CB /* TGNetworking.h in Headers */,
+				BEDCD76C1B949936005C71F7 /* TGHttpRequestOperation.h in Headers */,
+				BEDCD7741B949ABA005C71F7 /* PublicAccessToken.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +289,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEDCD7711B9499E0005C71F7 /* TGHttpRequestOperationManager.m in Sources */,
+				BEDCD7751B949ABA005C71F7 /* PublicAccessToken.m in Sources */,
+				BEDCD76D1B949936005C71F7 /* TGHttpRequestOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
